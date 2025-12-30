@@ -7,7 +7,7 @@
         {
             session_start();
             $_SESSION["Adminid"]=true;
-            header("Location:bidcontrol(1).php");
+            header("Location:bidcontrol.php");
         }
         else{
             header("Location:login.php?action=Wrong password or userid");

@@ -5,7 +5,8 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $database = "codebid";
-    $conn=mysqli_connect($servername,$username,$password,$database);
+$port = 3307;
+    $conn=mysqli_connect($servername,$username,$password,$database,$port    );
     if(!$conn)
     {
         die ("error".mysqli_connect_error());
