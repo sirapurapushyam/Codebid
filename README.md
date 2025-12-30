@@ -65,13 +65,13 @@ Follow the steps below to run the project locally.
 ### Import the Database
    - Open **phpMyAdmin** via [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
    - Click on `Import`  
-   - Navigate to the project folder → `assets/database` → select the `Questions.sql` file  
+   - Navigate to the project folder → `assets/` → select the `codebid.sql` file  
    - Import the database into your MySQL server
 
 ### Run the Project
    - Open your browser and navigate to:
      ```
-     http://localhost/CoinPay/
+     http://localhost/CodeBid/
      ```
 
  **Make sure** your database credentials in `connection.php` match your local MySQL setup (usually user: `root`, password: empty).
@@ -80,7 +80,7 @@ Follow the steps below to run the project locally.
 
 ---
 
-## 🎯 Event Objective
+## Event Objective
 
 - Encourage strategic thinking through live bidding
 - Promote competitive and collaborative coding
@@ -88,7 +88,7 @@ Follow the steps below to run the project locally.
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 - Ensure **Apache** and **MySQL** services are running in XAMPP before accessing the website
 - Use a modern web browser for best performance
