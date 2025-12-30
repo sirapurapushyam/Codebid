@@ -117,7 +117,7 @@ body {
     <body>
         <div class="wrapper">
         <div class="logo">
-            <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6GyJYJtTpRd4b4u9sG8yaYYmcZlnwc-ZvKA&s" alt="">
         </div>
         <div class="text-center mt-4 name">
             Adminlogin

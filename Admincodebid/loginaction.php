@@ -3,7 +3,7 @@
     if(isset($_POST['login'])){
         $adminid=$_POST['adminid'];
         $password=$_POST['password'];
-        if($adminid == 'codebid' && $password == 'cse@rguktsklmcodebid')
+        if($adminid == 'codebid' && $password == 'codebid')
         {
             session_start();
             $_SESSION["Adminid"]=true;
